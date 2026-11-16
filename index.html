@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self'; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="theme-color" content="#1d2a22" />
+    <link rel="icon" type="image/png" href="./icones/icone-192.png" />
+    <link rel="apple-touch-icon" href="./icones/icone-192.png" />
+    <title>Torres do Reino (prévia)</title>
+    <script type="module" crossorigin src="/torres-do-reino-previa/assets/index-CpflUUOs.js"></script>
+    <link rel="stylesheet" crossorigin href="/torres-do-reino-previa/assets/index-Bu6WGe-8.css">
+      <meta name="robots" content="noindex" />
+    <meta name="torres-build" content="0ac6800" />
+  <link rel="manifest" href="/torres-do-reino-previa/manifest.webmanifest"></head>
+  <body>
+    <div id="jogo">
+      <!-- A ordem do DOM é a ordem de foco (TL-15): mapa, cartão de contexto, Próxima onda, Pausa, Velocidade, Menu. O cartão de
+           estado é texto em região nomeada, lido antes do mapa e não focável. O #painel só existe no título e no fim. -->
+      <section id="hud-estado" hidden></section>
+      <main id="area">
+        <div id="palco" hidden>
+          <canvas id="fundo" role="img"></canvas>
+          <canvas id="cena" aria-hidden="true"></canvas>
+          <!-- Pausa (RV-02): escurece o mapa e mostra o chip "Pausado"; só visual (o anúncio é por aria-live) e sem toque. -->
+          <div id="camada-pausa" data-testid="camada-pausa" aria-hidden="true" hidden><span class="pausa-chip"></span></div>
+        </div>
+      </main>
+      <div id="hud-cartao" hidden></div>
+      <div id="hud-acoes" hidden></div>
+      <section id="painel" aria-labelledby="painel-titulo"></section>
+    </div>
+  </body>
+</html>
