@@ -1,0 +1,1 @@
+export{t as CATALOGO,n as aoProgressoMudar,r as avisoDaCampanha,i as avisoDaVitoria,a as avisoDoTitulo,o as pedirArmazenamentoPersistente,s as servicoDoProgresso}from"./progresso-tela-OXOEBSgP.js";

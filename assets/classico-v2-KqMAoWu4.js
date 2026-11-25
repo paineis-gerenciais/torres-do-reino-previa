@@ -1,0 +1,1 @@
+export{t as CONTEUDO_CLASSICO_V2}from"./classico-v2-BSYqxf1d.js";

@@ -1,0 +1,1 @@
+var e=`QuotaExceededError`,t=`SecurityError`;function n(e){return typeof e==`object`&&e&&`name`in e?String(e.name):``}export{t as n,n as r,e as t};
