@@ -1,1 +1,0 @@
-var e=`torres-do-reino-previa:`,t=String({BASE_URL:`/torres-do-reino-previa/`,DEV:!1,MODE:`previa`,PROD:!0,SSR:!1,VITE_ID_BUILD:`e1ab011`}.VITE_ID_BUILD??`sem-git`),n=e;function r(e,t){return e.startsWith(`torres-do-reino:`)?t+e.slice(16):e}export{n,r,t};

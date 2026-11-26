@@ -1,0 +1,1 @@
+export{t as TEXTOS_PARTIDA,n as TEXTOS_PARTIDA_V2}from"./textos-partida-Dfv1dg2u.js";

@@ -1,0 +1,1 @@
+var e=`arqueiro`,t=`canhao`,n=`alquimista`,r=`gelo`,i=[e,t,n,r,`balista`];function a(){return[[[e,t],[]],[[e,t,n],[e]],[[e,t,n,r],[e]],[i,[e]],[i,[e,t,n]],[i,i],...Array.from({length:9},()=>[i,i])].map(([e,t],n)=>({id:`campanha-${String(n+1)}`,numero:n+1,torres:e,especialistas:t}))}var o=a(),s=o,c={duas:60,tres:90};export{o as n,c as r,s as t};
