@@ -1,0 +1,1 @@
+import{n as e,r as t}from"./previa-build-BCiMcNdF.js";function n(n=e,r){try{let e=r??window.localStorage;if(e==null)return null;let i=e=>t(e,n);return{ler:t=>e.getItem(i(t)),gravar:(t,n)=>{e.setItem(i(t),n)},remover:t=>{e.removeItem(i(t))}}}catch{return null}}export{n as t};

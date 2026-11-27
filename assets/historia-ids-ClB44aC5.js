@@ -1,0 +1,1 @@
+var e=`historia-prologo`,t=e=>`historia-mapa-${String(e)}`;export{t as n,e as t};
