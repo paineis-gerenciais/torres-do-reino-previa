@@ -1,0 +1,1 @@
+export{t as placarDoFim,n as registroDaPartida,r as textoAviso,i as textoPosicao}from"./placar-tela-DWxDrdIJ.js";

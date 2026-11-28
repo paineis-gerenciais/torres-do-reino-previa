@@ -1,1 +1,0 @@
-export{t as placarDoFim,n as registroDaPartida,r as textoAviso,i as textoPosicao}from"./placar-tela-8f-8ZbvE.js";
